@@ -22,6 +22,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'faker'
 
+#added for sass
+gem "rails-sass-images"
+
+
 group :production do
   gem 'puma'
   gem 'rails_12factor'
