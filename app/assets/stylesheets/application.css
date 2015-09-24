@@ -14,26 +14,67 @@
  *= require_self
  */
 
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family:  "Comic Sans MS", cursive, sans-serif;
+  font-family: 'Slabo 27px', serif;
+}
+
+h1, h2 {
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+#about h2 {
+  border-bottom: 2px solid green;
+}
+
+.about.container h2 {
+  border-bottom: 2px solid blue;
+}
+
+h2 {
+  /*text-decoration: underline;*/
+  border-bottom: 2px solid red !important;
+  /*NEVER WRITE IMPORTANT*/
 }
 
 a {
-  color: #FF9900;
+  color: lightblue;
+  text-decoration: none;
+  transition: all 5s ease;
 }
 
-h1, h2 {
-  color: #33FFFF;
+a:hover {
+  text-decoration:underline;
+  /*font-size: 20px;*/
+  color: yellow;
+  transition: all 1s ease;
 }
 
-h1, h2 {
-    background-color: #FF9900;
+.about {
+  /*border: 2px dotted lightgray;*/
 }
 
-body {
-    background-color: #00FF00;
+a {
+  color: red;
 }
 
-body {
-    border: 2px dotted #000;
+.content-wrapper {
+  width: 500px;
+  margin: 0 auto;
+}
+.container {
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    background: black;
 }
