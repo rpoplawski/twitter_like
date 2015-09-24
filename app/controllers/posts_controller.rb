@@ -23,7 +23,9 @@ class PostsController < ApplicationController
     user           = params.fetch(:username)
     user_id        = User.where(username: user)
     post.user_id   = User.find(:first)
-
+      while !result.empty?
+              puts result.pop
+      end
     post.save
     redirect_to posts_path
   end

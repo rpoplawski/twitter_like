@@ -1,0 +1,10 @@
+<header id='top'>
+      <h1 class='banner'>Chit Chat </h1>
+    </header>
+  <section class='users'>
+    <h2>Users</h2>
+    <% users.each do |user| %>
+     <p><a href='/users/<%= user.id %>/users'><%= user.message %></a>
+      <a href="/users/new">Add user</a></p>
+    <% end %>
+  </section>

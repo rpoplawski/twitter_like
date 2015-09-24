@@ -1,0 +1,14 @@
+<section class='posts'>
+    <h2>Posts</h2>
+<%= form_for(post) do |f| %>
+  <p>
+  <%= f.label :boby %>
+  <%= f.text_field :body %>
+  </p>
+  <p>
+  <%= f.label :user_id %>
+  <%= f.text_field :user_id %>
+  </p>
+  <%= f.submit %>
+<% end %>
+</section>

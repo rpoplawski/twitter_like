@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-family:  "Comic Sans MS", cursive, sans-serif;
+}
+
+a {
+  color: #FF9900;
+}
+
+h1, h2 {
+  color: #33FFFF;
+}
+
+h1, h2 {
+    background-color: #FF9900;
+}
+
+body {
+    background-color: #00FF00;
+}
+
+body {
+    border: 2px dotted #000;
+}

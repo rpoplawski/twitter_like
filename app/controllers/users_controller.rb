@@ -19,7 +19,7 @@ class UsersController < ApplicationController
   def create
     # message, user_id
     user = Post.new
-    user.username     = params.fetch(:user).fetch(:username)
+    user.username   = params.fetch(:user).fetch(:username)
     user.save
     if user.save
       redirect_to user_path(User)
