@@ -1,8 +1,11 @@
------------------------------------------------
+## --------------------------------------------------------------------------------------
 
+## This app will allow users to make posts to the 'Chatter' app
+
+## The following link below is a link that lists the projects that I've worked on thus far.
 
 ![github account](https://github.com/rpoplawski)
 
-
+----------------------------------------------------------------------------------------
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
